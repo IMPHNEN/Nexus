@@ -2,7 +2,7 @@ services:
   app:
     build: 
       context: .
-      dockerfile: .
+      dockerfile: Dockerfile
     tty: true
     mem_limit: 800M
     restart: always
