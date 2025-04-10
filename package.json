@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx index.ts",
-    "start": "bun index.ts"
+    "start": "bun /app/index.ts"
   },
   "author": "",
   "license": "ISC",
