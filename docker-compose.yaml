@@ -1,6 +1,6 @@
 services:
   app:
-    image: polisimoral:latest
+    image: nexus:latest
     tty: true
     mem_limit: 800M
     restart: always
