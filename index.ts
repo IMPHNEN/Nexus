@@ -2,8 +2,9 @@ import { Client, Message, TextChannel, type OmitPartialGroupDMChannel } from "di
 import dotenv from "dotenv"
 import { containsObfuscatedSexualDeviation } from "./word/regex"
 
+console.log("STARTING ...")
 dotenv.config()
-
+console.log("IMPORTING ENV DONE")
 const client = new Client({
     intents: ["Guilds", "GuildMessages", "MessageContent", "DirectMessages"]
 })
