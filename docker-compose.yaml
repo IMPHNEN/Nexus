@@ -1,6 +1,8 @@
 services:
   app:
-    image: nexus:latest
+    build: 
+      context: .
+      dockerfile: .
     tty: true
     mem_limit: 800M
     restart: always
